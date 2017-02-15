@@ -18,6 +18,6 @@ Some acceptance test cases (or guiding tests) are the following ones:
 
 When scoring +X+ indicates a strike, / indicates a spare, - indicates a miss:
 
-12 rolls: 12 strikes: +XXXXXXXXXXXX+ = 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 = 300
-20 rolls: 10 pairs of 9 and miss: 9-9-9-9-9-9-9-9-9-9- = 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 = 90
-21 rolls: 10 pairs of 5 and spare, with a final 5: 5/5/5/5/5/5/5/5/5/5/5 = 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 = 150
+- 12 rolls: 12 strikes: +XXXXXXXXXXXX+ = 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 + 10+10+10 = 300
+- 20 rolls: 10 pairs of 9 and miss: 9-9-9-9-9-9-9-9-9-9- = 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 = 90
+- 21 rolls: 10 pairs of 5 and spare, with a final 5: 5/5/5/5/5/5/5/5/5/5/5 = 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 + 10+5 = 150
