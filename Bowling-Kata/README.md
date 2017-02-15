@@ -3,8 +3,7 @@
 
 Bowling kata implemented in java using Outside-in TDD double loop, starting from and acceptance test and then going internally into unit test of each class or collaborators till the problem is resolved. 
 
-The definition of the problem is as follows:
-- Given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game.
+The definition of the problem is when given a valid sequence of rolls for one line of American Ten-Pin Bowling, calculate the total score for the game.
 
 Each game, or "line" of bowling, includes ten turns, or "frames" for the bowler.The scoring for this form of bowling will be:
 - In each frame, the bowler gets up to two tries to knock down all the pins.
