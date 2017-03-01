@@ -1,9 +1,7 @@
 package outside.in.game;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.function.Predicate;
 
 public class Game {
 
