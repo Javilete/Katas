@@ -1,23 +1,23 @@
-** FIZZ BUZZ KATA **
+## FIZZ BUZZ KATA 
 
-Implementation of the fizz buzz kata using outside TDD.
+Implementation of the **fizz buzz** kata using outside TDD.
 
 The game is a counting and number substitution game. Players take turns counting up from one, replacing any number
 according to the following features:
 
-Feature 1 - Basic Fizz Buzz Scoring
+**Feature 1 - Basic Fizz Buzz Scoring**
 - Normal number should return that number so that the game can be scored according to the rules
 - Multiple of three should return 'fizz' so that the game can be scored according to the rules
 - Multiple of five should return 'buzz' so that the game can be scored according to the rules
 - Multiple of three and five should return 'fizz buzz' so that the game can be scored according to the rules
 
-Feature 2 - Playing FizzBuzz Variations
+**Feature 2 - Playing FizzBuzz Variations**
 - Multiple of seven should return 'pop' so that the game can be scored according to the rules
 - Multiple of three and seven should return 'fizz pop' so that the game can be scored according to the rules
 - Multiple of five and seven should return 'buzz pop' so that the game can be scored according to the rules
 - Multiple of three, five and seven should return 'fizz buzz pop' so that the game can be scored according to the rules
 
-Feature 3 - Creating Fizz Buzz Variations
+**Feature 3 - Creating Fizz Buzz Variations
 - Choose custom substitutions so that I can tailor the game to my preferences
 - Substitutions should work the same way as Fizz Buzz so that the essence of the game remains the same
 
