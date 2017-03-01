@@ -2,14 +2,5 @@
 *.iml
 */*.iml
 
-Anagrams-Kata/target/*
-Anagrams-Kata/.idea/*
-
-Bank-Kata/target/*
-Bank-Kata/.idea/*
-
-Bowling-Kata/target/*
-Bowling-Kata/.idea/*
-
-FizzBuzz-Kata/target/*
-FizzBuzz-Kata/.idea/*
+*/target/*
+*/.idea/*
