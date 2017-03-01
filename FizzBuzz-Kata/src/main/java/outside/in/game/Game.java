@@ -1,6 +1,6 @@
 package outside.in.game;
 
-import java.util.LinkedHashMap;
+import java.util.HashMap;
 import java.util.Map;
 
 public class Game {
@@ -9,7 +9,7 @@ public class Game {
     private static final String BUZZ_VALUE = "buzz";
     private static final String POP_VALUE = "pop";
 
-    private final  Map<Integer,String> rules = new LinkedHashMap<>();
+    private final  Map<Integer,String> rules = new HashMap<>();
 
     public Game() {
         rules.put(3, FIZZ_VALUE);
