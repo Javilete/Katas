@@ -9,14 +9,16 @@ public class RomanCalculator {
     }
 
     public String calculate(int arabicNumber) {
-        StringBuilder romanNumeral = new StringBuilder();
+        StringBuffer romanNumeral = new StringBuffer();
+        return calculateValue(arabicNumber, romanNumeral);
+    }
 
-        while (arabicNumber > 0) {
+    private String calculateValue(int arabicNumber, StringBuffer romanNumeral) {
+        if(arabicNumber > 0) {
             int hightestValue = findHighestValueLessThan(arabicNumber);
             romanNumeral.append(conversion.getTable().get(hightestValue));
-            arabicNumber = arabicNumber - hightestValue;
+            return calculateValue(arabicNumber - hightestValue, romanNumeral);
         }
-
         return romanNumeral.toString();
     }
 
