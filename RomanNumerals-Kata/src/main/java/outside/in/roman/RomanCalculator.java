@@ -14,7 +14,7 @@ public class RomanCalculator {
     }
 
     private String calculateValue(int arabicNumber, StringBuffer romanNumeral) {
-        if(arabicNumber > 0) {
+        if (arabicNumber > 0) {
             int hightestValue = findHighestValueLessThan(arabicNumber);
             romanNumeral.append(conversion.getTable().get(hightestValue));
             return calculateValue(arabicNumber - hightestValue, romanNumeral);
