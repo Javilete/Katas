@@ -1,1 +1,1 @@
-** Arabic Number kata
+## Arabic Number kata
