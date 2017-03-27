@@ -2,13 +2,31 @@ package outside.in.roman;
 
 public class RomanConverter {
 
-    private final RomanCalculator romanCalculator;
+    private RomanConversion conversion;
 
-    public RomanConverter(RomanCalculator romanCalculator) {
-        this.romanCalculator = romanCalculator;
+    public RomanConverter(RomanConversion conversion) {
+        this.conversion = conversion;
     }
 
-    public String convert(int number) {
-        return romanCalculator.calculate(number);
+    public String convert(int arabicNumber) {
+        StringBuffer romanNumeral = new StringBuffer();
+        return convertPartial(arabicNumber, romanNumeral);
+    }
+
+    private String convertPartial(int arabicNumber, StringBuffer romanNumeral) {
+        if (arabicNumber > 0) {
+            int hightestValue = findHighestValueLessThan(arabicNumber);
+            romanNumeral.append(conversion.getTable().get(hightestValue));
+            return convertPartial(arabicNumber - hightestValue, romanNumeral);
+        }
+        return romanNumeral.toString();
+    }
+
+    private int findHighestValueLessThan(int arabicNumber) {
+        return conversion.getTable().keySet().stream()
+                .mapToInt(key -> key)
+                .filter(i -> i <= arabicNumber)
+                .max()
+                .getAsInt();
     }
 }

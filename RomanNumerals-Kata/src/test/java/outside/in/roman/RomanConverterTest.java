@@ -2,32 +2,36 @@ package outside.in.roman;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.runners.MockitoJUnitRunner;
 
-import static org.mockito.Matchers.anyInt;
-import static org.mockito.Mockito.verify;
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
 
-@RunWith(MockitoJUnitRunner.class)
 public class RomanConverterTest {
 
-    private RomanConverter romanConverter;
-
-    @Mock
-    private RomanCalculator romanCalculator;
+    private RomanConversion conversion;
+    private RomanConverter calculator;
 
     @Before
     public void setUp() throws Exception {
-        romanConverter = new RomanConverter(romanCalculator);
+        conversion = new RomanConversion();
+        calculator = new RomanConverter(conversion);
     }
 
     @Test
-    public void name() {
-        int number = 1984;
+    public void shouldGiveMeRomanNumeral_when_aExistingConversionIsGiven() {
+        int breakNumber = 1000;
 
-        romanConverter.convert(number);
+        String romanNumber = calculator.convert(breakNumber);
 
-        verify(romanCalculator).calculate(anyInt());
+        assertThat(romanNumber, is("M"));
+    }
+
+    @Test
+    public void shouldGiveMeRomanNumeralCalculated_when_aConversionDoesNotExist() {
+        int breakNumber = 1996;
+
+        String romanNumber = calculator.convert(breakNumber);
+
+        assertThat(romanNumber, is("MCMXCVI"));
     }
 }
