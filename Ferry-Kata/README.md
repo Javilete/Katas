@@ -17,7 +17,7 @@ Once you can load cars into the Ferry, look at other things the Ferry company is
 
 To resolve and accomplish all the criteria specified I have followed the following:
 - TDD classicists where I have worked with real objects in the tests. With this approach, I have
-do state verification in my tests.
+done state verification in my tests.
 - Tell, do not ask principle where basically data and behaviour resides in the same class.
 The example is within Car.java class. The first thought was to create getters and do the checking
 inside the Ferry.java to verify whether it was a half-price ride or a free ride.
