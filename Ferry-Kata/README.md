@@ -1,4 +1,4 @@
-Ferry-kata
+## Ferry-kata
 
 In an island country far far away there are lots of Ferries that allow people to travel by car between all the different islands of this country.
 This country’s government would like to control the number of cars and people that can get onto a Ferry.
