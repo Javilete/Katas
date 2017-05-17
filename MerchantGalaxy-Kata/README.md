@@ -1,4 +1,4 @@
-Merchant's Guide to the Galaxy kata
+Merchant's Galaxy kata
 ---------------------------------------------
 
 Use of TDD Outside-In approach to help the implementation and design.
