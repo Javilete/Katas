@@ -1,6 +1,12 @@
 Merchant's Galaxy kata
 ---------------------------------------------
 
+You decided to give up on earth and you move to the space. Buying and selling over the galaxy requires you to convert numbers and units, and you decided to write a program to help you.
+ 
+The numbers used for intergalactic transactions follows similar convention to the roman numerals and you have collected the appropriate translation between them.
+
+Roman numerals explanation can be found here: https://en.wikipedia.org/wiki/Roman_numerals
+
 Use of TDD Outside-In approach to help the implementation and design.
 Starting with a guiding test based on the test input and test output specified
 in the problem.
