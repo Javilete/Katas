@@ -7,6 +7,8 @@ The numbers used for intergalactic transactions follows similar convention to th
 
 Roman numerals explanation can be found here: https://en.wikipedia.org/wiki/Roman_numerals
 
+** SOLUTION AND DESIGN
+
 Use of TDD Outside-In approach to help the implementation and design.
 Starting with a guiding test based on the test input and test output specified
 in the problem.
