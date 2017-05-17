@@ -1,4 +1,4 @@
-Ferry-kata
+## Ferry-kata
 
 In an island country far far away there are lots of Ferries that allow people to travel by car between all the different islands of this country.
 This country’s government would like to control the number of cars and people that can get onto a Ferry.
@@ -17,7 +17,7 @@ Once you can load cars into the Ferry, look at other things the Ferry company is
 
 To resolve and accomplish all the criteria specified I have followed the following:
 - TDD classicists where I have worked with real objects in the tests. With this approach, I have
-do state verification in my tests.
+done state verification in my tests.
 - Tell, do not ask principle where basically data and behaviour resides in the same class.
 The example is within Car.java class. The first thought was to create getters and do the checking
 inside the Ferry.java to verify whether it was a half-price ride or a free ride.
