@@ -1,4 +1,4 @@
-** FIZZ BUZZ DELUXE **
+**FIZZ BUZZ DELUXE**
 
 
 ROUND 1 - Fizz Buzz
